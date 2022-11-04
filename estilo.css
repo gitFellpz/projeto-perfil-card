@@ -37,12 +37,20 @@ p{
 .info-1 p{
     margin-top: 15px;
 }
-.info-1 p:nth-child(3), 
-.info-1 p span,
-.info-2 p:nth-child(2){
+
+.idade{
+    color: rgb(136, 136, 136);
+    /* font-weight: 400; */
+}
+.cidade{
     color: rgb(136, 136, 136);
     font-weight: 400;
 }
+.coluna p:nth-child(2){
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+}
+
 
 .info-2{
     display: flex;
